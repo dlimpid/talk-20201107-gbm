@@ -50,7 +50,7 @@
         /Users/myusername
         ```
 
-4. 이 저장소의 [`environment.yml` 파일을 다운받아](https://raw.githubusercontent.com/dlimpid/talk-20201107-gbm/master/environment.yml) 위에서 확인한 위치에 저장합니다.
+4. 이 저장소의 [`environment.yml` 파일을 다운받아](https://raw.githubusercontent.com/dlimpid/talk-20201107-gbm/main/environment.yml) 위에서 확인한 위치에 저장합니다.
 
 5. 터미널에서 다음을 입력하여 계산 환경을 만듭니다.
 
