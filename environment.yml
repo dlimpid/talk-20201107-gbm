@@ -1,0 +1,23 @@
+name: gbm
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - ipywidgets
+  - jupyterlab>=2.2
+  # Algorithms
+  - numpy
+  - pandas>=1.1
+  - numexpr  # pandas recommended dependencies
+  - bottleneck  # pandas recommended dependencies
+  - scipy
+  - scikit-learn
+  # Visualizations
+  - matplotlib
+  - tabulate
+  - seaborn>=0.11
+  - tqdm
+  # pip packages
+  - pip
+  - pip:
+    - xgboost
