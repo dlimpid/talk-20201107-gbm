@@ -2,8 +2,6 @@
 
 2020년 11월 7일, 2020 NIMS 산업수학 아카데미
 
-ℹ️ 강연을 위한 Jupyter notebook 파일은 추후 이 저장소에 추가될 예정입니다.
-
 ## 계산 환경 설정
 
 0. 주의사항
@@ -104,6 +102,13 @@
     (gbm) $ conda deactivate
     (base) $ conda remove -n gbm --all
     ```
+
+- 부득이하게 로컬 환경에 설치가 안되는 경우 Binder를 이용하세요. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlimpid/talk-20201107-gbm/main?urlpath=lab)
+
+    - 단, 몇 분 이상 입력이 없어 세션이 끝나게 되면 파일이 전부 날아가므로 주의하셔야 합니다.
+        (수정한 파일을 본인의 컴퓨터에 다운받아 놓을 수는 있습니다.)
+
+    - 이 저장소가 수정된 이후에 처음으로 실행하는 경우 매우 오래 걸릴 수 있습니다.
 
 [Anaconda]: https://www.anaconda.com/distribution/
 [Miniconda]: https://docs.conda.io/en/latest/miniconda.html
